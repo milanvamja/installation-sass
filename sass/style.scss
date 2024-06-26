@@ -1,0 +1,35 @@
+
+@import "variables";
+@import "header";
+@import "mixing";
+@import "extend";
+
+// [01] variables
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.common-div {
+    background-color: $skyblue-color;
+    padding: 50px;
+    margin: 30px 15px;
+}
+
+h1 {
+    color: $blue-color;
+    background-color: $primary-color;
+}
+
+p {
+    color: $primary-color;
+    background-color: $blue-color;
+}
+
+
+

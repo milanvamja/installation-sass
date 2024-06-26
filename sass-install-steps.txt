@@ -1,0 +1,20 @@
+1) Install Node Js 
+2) Check Node Js by writing code node -v in terminal.
+3) open vs code and install Live Sass Compiler extention.
+4) Create this file's
+	index.html
+	📁css  Folder
+	📁sass Folder
+	     style.scss
+5) click vs code bottom watch sass
+6) open vs code and press ( Shift + ctrl + p )  and serch setting.json  & paste this code ⬇️
+
+"liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "~/../css/"
+        }
+    ],
+	
+	

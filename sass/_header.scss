@@ -1,0 +1,29 @@
+
+
+// [02] Sass Nesting
+
+nav {
+    background-color: $blue-color;
+    padding: 5px;
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        li {
+            display: inline-block;
+            margin: 0 15px;
+
+            a {
+                color: $white-color;
+                transition: 0.3s;
+                font-size: 18px;
+
+                &:hover {
+                    color: $primary-color;
+                }
+            }
+        }
+    }
+}

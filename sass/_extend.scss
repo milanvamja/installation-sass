@@ -1,0 +1,25 @@
+
+
+// %red-btn ( use this method not showing to extra css )
+
+.red-btn{
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+    font-size: 18px;
+    padding: 12px 40px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blue-btn{
+    background-color: blue;
+    @extend .red-btn;
+}
+
+.black-btn{
+    background-color: black;
+    @extend .red-btn;
+}
