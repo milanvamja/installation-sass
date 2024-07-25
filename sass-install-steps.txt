@@ -1,5 +1,5 @@
 1) Install Node Js 
-2) Check Node Js by writing code node -v in terminal.
+2) Check Node Js version writing code node -v in terminal.
 3) open vs code and install Live Sass Compiler extention.
 4) Create this file's
 	index.html
